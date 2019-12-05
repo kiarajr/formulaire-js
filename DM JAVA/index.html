@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/dm.css">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+ </head>
+<body>
+
+    <div class="panoramique">
+
+        <div id="page-gauche">
+             
+            <h1> BIENVENUE </h1>
+            <br>
+            <form class="box">
+            <label for="email"> Email </label>
+            <input type="text" placeholder="Entrez votre e-mail">
+            <br><br>
+
+            <label for="password"> Mot de passe </label>
+            <input type="password" id="password" placeholder="Entrez votre mot de passe">
+            <span id="compteur"></span>
+            <span id="erreur"></span>
+
+            <br><br>
+
+            <button  onclick="countcarac()" >ENVOYER</button>
+        </form>
+    
+        </div>
+
+        <div id="page-droite">
+            <h1> INFORMATIONS PERSONNELLES </h1>
+            <input type="text" placeholder="Nom">
+            <input type="text" placeholder="Prenom">
+            <input type="text" placeholder="Age">
+            <input type="text" placeholder="Niveau d'etude">
+
+            <button> Envoyer</button>
+          
+
+
+        </div>
+
+
+
+    </div>
+
+    </body>
+    <script src="js/dm.js"> </script>
+    </html>

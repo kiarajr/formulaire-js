@@ -1,0 +1,49 @@
+html, body {
+    margin:0;padding: 0;
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 50px;
+text-align: center;
+}
+.panoramique {
+    width: 200%;
+    height: 100vh;
+    margin: 0px;
+    transition-duration: 2s;
+}
+
+#page-gauche {
+    background-color: lightskyblue;
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+
+#page-droite {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 6px 6px;
+    width: 250px;
+    color: black;
+    border-radius:3px;    
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+width: 280px;
+border-color: bisque;
+}
+
+  
